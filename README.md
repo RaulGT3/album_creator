@@ -1,1 +1,2 @@
 # album_creator
+#this project focuses on object orintated proggramming it takes in  album , artist ,  track  and images json files then spareses the information with in these json files and creates a album for the artist and puts it in a html file where it its grouped by albums displaying there albums with there respected images this is all done with using one master class the spares the json file that can be used by all the objects allowing fpor pollymofisam. 
