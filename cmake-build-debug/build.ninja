@@ -1,0 +1,229 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: project_4
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/raulgallardo/CLionProjects/project_5/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target project_4
+
+
+#############################################
+# Order-only phony target for project_4
+
+build cmake_object_order_depends_target_project_4: phony || CMakeFiles/project_4.dir
+
+build CMakeFiles/project_4.dir/main.cpp.o: CXX_COMPILER__project_4_Debug /Users/raulgallardo/CLionProjects/project_5/main.cpp || cmake_object_order_depends_target_project_4
+  DEP_FILE = CMakeFiles/project_4.dir/main.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/project_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/project_4.dir
+
+build CMakeFiles/project_4.dir/Album.cpp.o: CXX_COMPILER__project_4_Debug /Users/raulgallardo/CLionProjects/project_5/Album.cpp || cmake_object_order_depends_target_project_4
+  DEP_FILE = CMakeFiles/project_4.dir/Album.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/project_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/project_4.dir
+
+build CMakeFiles/project_4.dir/Track.cpp.o: CXX_COMPILER__project_4_Debug /Users/raulgallardo/CLionProjects/project_5/Track.cpp || cmake_object_order_depends_target_project_4
+  DEP_FILE = CMakeFiles/project_4.dir/Track.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/project_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/project_4.dir
+
+build CMakeFiles/project_4.dir/Albums.cpp.o: CXX_COMPILER__project_4_Debug /Users/raulgallardo/CLionProjects/project_5/Albums.cpp || cmake_object_order_depends_target_project_4
+  DEP_FILE = CMakeFiles/project_4.dir/Albums.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/project_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/project_4.dir
+
+build CMakeFiles/project_4.dir/Tracks.cpp.o: CXX_COMPILER__project_4_Debug /Users/raulgallardo/CLionProjects/project_5/Tracks.cpp || cmake_object_order_depends_target_project_4
+  DEP_FILE = CMakeFiles/project_4.dir/Tracks.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/project_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/project_4.dir
+
+build CMakeFiles/project_4.dir/Artists.cpp.o: CXX_COMPILER__project_4_Debug /Users/raulgallardo/CLionProjects/project_5/Artists.cpp || cmake_object_order_depends_target_project_4
+  DEP_FILE = CMakeFiles/project_4.dir/Artists.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/project_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/project_4.dir
+
+build CMakeFiles/project_4.dir/Artist.cpp.o: CXX_COMPILER__project_4_Debug /Users/raulgallardo/CLionProjects/project_5/Artist.cpp || cmake_object_order_depends_target_project_4
+  DEP_FILE = CMakeFiles/project_4.dir/Artist.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/project_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/project_4.dir
+
+build CMakeFiles/project_4.dir/JSONDataObject.cpp.o: CXX_COMPILER__project_4_Debug /Users/raulgallardo/CLionProjects/project_5/JSONDataObject.cpp || cmake_object_order_depends_target_project_4
+  DEP_FILE = CMakeFiles/project_4.dir/JSONDataObject.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/project_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/project_4.dir
+
+build CMakeFiles/project_4.dir/JSONArray.cpp.o: CXX_COMPILER__project_4_Debug /Users/raulgallardo/CLionProjects/project_5/JSONArray.cpp || cmake_object_order_depends_target_project_4
+  DEP_FILE = CMakeFiles/project_4.dir/JSONArray.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/project_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/project_4.dir
+
+build CMakeFiles/project_4.dir/Pair.cpp.o: CXX_COMPILER__project_4_Debug /Users/raulgallardo/CLionProjects/project_5/Pair.cpp || cmake_object_order_depends_target_project_4
+  DEP_FILE = CMakeFiles/project_4.dir/Pair.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/project_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/project_4.dir
+
+build CMakeFiles/project_4.dir/Token.cpp.o: CXX_COMPILER__project_4_Debug /Users/raulgallardo/CLionProjects/project_5/Token.cpp || cmake_object_order_depends_target_project_4
+  DEP_FILE = CMakeFiles/project_4.dir/Token.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/project_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/project_4.dir
+
+build CMakeFiles/project_4.dir/Tokenizer.cpp.o: CXX_COMPILER__project_4_Debug /Users/raulgallardo/CLionProjects/project_5/Tokenizer.cpp || cmake_object_order_depends_target_project_4
+  DEP_FILE = CMakeFiles/project_4.dir/Tokenizer.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/project_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/project_4.dir
+
+build CMakeFiles/project_4.dir/Album_images.cpp.o: CXX_COMPILER__project_4_Debug /Users/raulgallardo/CLionProjects/project_5/Album_images.cpp || cmake_object_order_depends_target_project_4
+  DEP_FILE = CMakeFiles/project_4.dir/Album_images.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/project_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/project_4.dir
+
+build CMakeFiles/project_4.dir/Album_image.cpp.o: CXX_COMPILER__project_4_Debug /Users/raulgallardo/CLionProjects/project_5/Album_image.cpp || cmake_object_order_depends_target_project_4
+  DEP_FILE = CMakeFiles/project_4.dir/Album_image.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/project_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/project_4.dir
+
+build CMakeFiles/project_4.dir/Artist_image.cpp.o: CXX_COMPILER__project_4_Debug /Users/raulgallardo/CLionProjects/project_5/Artist_image.cpp || cmake_object_order_depends_target_project_4
+  DEP_FILE = CMakeFiles/project_4.dir/Artist_image.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/project_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/project_4.dir
+
+build CMakeFiles/project_4.dir/Artist_images.cpp.o: CXX_COMPILER__project_4_Debug /Users/raulgallardo/CLionProjects/project_5/Artist_images.cpp || cmake_object_order_depends_target_project_4
+  DEP_FILE = CMakeFiles/project_4.dir/Artist_images.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -fcolor-diagnostics -std=gnu++17
+  OBJECT_DIR = CMakeFiles/project_4.dir
+  OBJECT_FILE_DIR = CMakeFiles/project_4.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target project_4
+
+
+#############################################
+# Link the executable project_4
+
+build project_4: CXX_EXECUTABLE_LINKER__project_4_Debug CMakeFiles/project_4.dir/main.cpp.o CMakeFiles/project_4.dir/Album.cpp.o CMakeFiles/project_4.dir/Track.cpp.o CMakeFiles/project_4.dir/Albums.cpp.o CMakeFiles/project_4.dir/Tracks.cpp.o CMakeFiles/project_4.dir/Artists.cpp.o CMakeFiles/project_4.dir/Artist.cpp.o CMakeFiles/project_4.dir/JSONDataObject.cpp.o CMakeFiles/project_4.dir/JSONArray.cpp.o CMakeFiles/project_4.dir/Pair.cpp.o CMakeFiles/project_4.dir/Token.cpp.o CMakeFiles/project_4.dir/Tokenizer.cpp.o CMakeFiles/project_4.dir/Album_images.cpp.o CMakeFiles/project_4.dir/Album_image.cpp.o CMakeFiles/project_4.dir/Artist_image.cpp.o CMakeFiles/project_4.dir/Artist_images.cpp.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
+  OBJECT_DIR = CMakeFiles/project_4.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = project_4
+  TARGET_PDB = project_4.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/raulgallardo/CLionProjects/project_5/cmake-build-debug && "/Users/raulgallardo/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/raulgallardo/CLionProjects/project_5/cmake-build-debug && "/Users/raulgallardo/Library/Application Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/raulgallardo/CLionProjects/project_5 -B/Users/raulgallardo/CLionProjects/project_5/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/raulgallardo/CLionProjects/project_5/cmake-build-debug
+
+build all: phony project_4
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | /Users/raulgallardo/CLionProjects/project_5/CMakeLists.txt /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build /Users/raulgallardo/CLionProjects/project_5/CMakeLists.txt /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCInformation.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCXXInformation.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeGenericSystem.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-C.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/AppleClang-CXX.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/Clang.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Compiler/GNU.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-C.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-AppleClang-CXX.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-C.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang-CXX.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Apple-Clang.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin-Initialize.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/Darwin.cmake /Users/raulgallardo/Library/Application$ Support/JetBrains/Toolbox/apps/CLion/ch-0/223.8214.51/CLion.app/Contents/bin/cmake/mac/share/cmake-3.24/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.24.2/CMakeCCompiler.cmake CMakeFiles/3.24.2/CMakeCXXCompiler.cmake CMakeFiles/3.24.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
